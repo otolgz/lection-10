@@ -1,0 +1,30 @@
+@media (max-width: 1250px) {
+  .container2 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .marjvena {
+    justify-content: space-around;
+  }
+  .marjvena > div {
+    width: 330px;
+  }
+}
+@media (max-width: 890px) {
+  .bigbox {
+    flex-direction: column;
+    align-items: center;
+  }
+  .marcxena {
+    text-align: center;
+    width: 350px;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .marjvena > div {
+    width: 500px;
+    text-align: center;
+  }
+}

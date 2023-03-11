@@ -1,0 +1,111 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.logo {
+  width: 133px;
+  height: 31px;
+}
+ul {
+  display: flex;
+}
+li {
+  margin-left: 20px;
+  font-family: "raleway";
+}
+section {
+  background: linear-gradient(
+      to bottom,
+      rgba(8, 174, 234, 0.5),
+      rgba(42, 245, 152, 0.6)
+    ),
+    url(../css/kalen-emsley-94.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 500px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  /* background: linear-gradient(-2deg, #08aeea 0%, #2af598 100%); */
+}
+h1 {
+  font-family: "arial";
+  font-size: 78.74051666259766px;
+  font-weight: 400;
+  line-height: 52.95845413208008px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+}
+h2 {
+  font-family: "raleway";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 37px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 2%;
+}
+
+.container2 {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bigbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.marcxena {
+  width: 242px;
+  font-family: "raleway";
+  margin-right: 30px;
+}
+.marcxena > h3 {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 15px;
+}
+
+.marcxena > h4 {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.marcxena > p {
+  font-size: 16px;
+  color: grey;
+}
+.marjvena {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.marjvena > div {
+  width: 280px;
+
+  margin-bottom: 20px;
+}
+div > img {
+  width: 100%;
+}
+h6 {
+  margin-bottom: 10px;
+}
