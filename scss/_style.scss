@@ -1,0 +1,59 @@
+header {
+  .container {
+    @include mycont;
+
+    .logo {
+      @include mainlogo;
+    }
+    nav {
+      ul {
+        display: flex;
+        li {
+          margin-left: 20px;
+          font-family: "raleway";
+        }
+      }
+    }
+  }
+}
+
+section {
+  @include mysec;
+  h1 {
+    font-size: $fontsize1;
+  }
+  h2 {
+    font-size: $fontsize2;
+  }
+}
+
+.container2 {
+  @include cont2;
+}
+.bigbox {
+  @include bigbox-style;
+  .marcxena {
+    @include marcxena-style;
+    h3 {
+      @include myh3;
+    }
+    h4 {
+      @include myh4;
+    }
+    p {
+      @include marcxena-p;
+    }
+  }
+  .marjvena {
+    @include marjvena-style;
+  }
+  .marjvena > div {
+    @include marjvena-div;
+  }
+  .marjvena > div > img {
+    width: 100%;
+  }
+  h6 {
+    margin-bottom: 10px;
+  }
+}

@@ -1,22 +1,16 @@
-.container {
+@mixin mycont {
   width: 1170px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding: 25px;
 }
-.logo {
+
+@mixin mainlogo {
   width: 133px;
   height: 31px;
 }
-ul {
-  display: flex;
-}
-li {
-  margin-left: 20px;
-  font-family: "raleway";
-}
-section {
+@mixin mysec {
   background: linear-gradient(
       to bottom,
       rgba(8, 174, 234, 0.5),
@@ -33,21 +27,19 @@ section {
   justify-content: center;
   align-items: center;
   color: white;
-
-  /* background: linear-gradient(-2deg, #08aeea 0%, #2af598 100%); */
 }
-h1 {
+
+@mixin myh1 {
   font-family: "arial";
-  font-size: 78.74051666259766px;
   font-weight: 400;
   line-height: 52.95845413208008px;
   font-style: normal;
   text-align: left;
   color: #ffffff;
 }
-h2 {
+
+@mixin myh2 {
   font-family: "raleway";
-  font-size: 18px;
   font-weight: 400;
   line-height: 37px;
   font-style: normal;
@@ -55,57 +47,45 @@ h2 {
   color: #ffffff;
   margin-top: 2%;
 }
-
-.container2 {
+@mixin cont2 {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
 }
-
-.bigbox {
+@mixin bigbox-style {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 50px;
 }
-
-.marcxena {
+@mixin marcxena-style {
   width: 242px;
   font-family: "raleway";
   margin-right: 30px;
 }
-.marcxena > h3 {
+@mixin myh3 {
   font-size: 16px;
   color: grey;
   margin-bottom: 15px;
 }
-
-.marcxena > h4 {
+@mixin myh4 {
   font-size: 26px;
   margin-bottom: 40px;
 }
-
-.marcxena > p {
+@mixin marcxena-p {
   font-size: 16px;
   color: grey;
 }
-.marjvena {
+@mixin marjvena-style {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
 }
-
-.marjvena > div {
+@mixin marjvena-div {
   width: 280px;
 
   margin-bottom: 20px;
-}
-div > img {
-  width: 100%;
-}
-h6 {
-  margin-bottom: 10px;
 }
